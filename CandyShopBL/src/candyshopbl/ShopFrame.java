@@ -42,7 +42,7 @@ public class ShopFrame extends JFrame{
         
         title = new JLabel("    Loja de doces   ");
         title.setFont(new Font("Arial", Font.BOLD, 30 ));
-        add(title);
+        add(title, BorderLayout.NORTH);
         
         icon1 = new ImageIcon(getClass().getResource("icon1.jpg"));
         icon2 = new ImageIcon(getClass().getResource("icon2.jpg"));
